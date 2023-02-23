@@ -18,6 +18,24 @@
 // int a = Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine($"Sum of numbers from 1 to {a} = {FindSum(a)}");
 
+// Таже задача но только если начало счётчика тоже будет вводить пользователь.
+// int FindSum(int a, int current)
+// {
+//     int sum = 0;
+//     for (int curr = current; curr <= a; curr++) // current = 1 - потому что в задачи надо найти от одного(см.стр 1)
+//                                                // <= a - потому что включительно с последним числом
+//     {
+//       sum += curr; // (альтернативная запись) sum = sum + current;
+//     }
+//     return sum;
+// }
+
+// Console.Write("Input A: ");
+// int a = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input current: ");
+// int current = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine($"Sum of numbers from {current} to {a} = {FindSum(a, current)}");
+
 
 //Задача 4. Напишите программу, которая выводит массив из 8 элементов, заполненный нулями и единицами в случайном порядке.
 // [1,0,1,1,0,1,0,0]
